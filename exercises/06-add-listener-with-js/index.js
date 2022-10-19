@@ -4,3 +4,7 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+let boton = document.getElementById("theGreen");
+boton.addEventListener("click", () => {
+    alert("Hello World");
+})
